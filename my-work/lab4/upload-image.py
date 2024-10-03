@@ -28,3 +28,5 @@ response = s3.generate_presigned_url(
 	)
 
 print(response)
+
+final_url = 'https://ds2022-qce2dp.s3.amazonaws.com/johncena.gif?AWSAccessKeyId=AKIAYXWBNV7KSLFKF7LC&Signature=AsJ7rYXDPs89vxJmZ3au91u4Mag%3D&Expires=1728569793'
