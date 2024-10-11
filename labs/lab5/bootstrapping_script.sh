@@ -1,7 +1,6 @@
 #!/bin/bash
 
-apt update -y
-apt upgrade -y
+/usr/bin/apt update -y
+/usr/bin/apt upgrade -y
 
-apt install -y git awscli nginx
-
+apt install -y nginx apache2 git
